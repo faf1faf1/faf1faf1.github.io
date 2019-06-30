@@ -1,0 +1,221 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #ffeaa7;
+	height: 2000px;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #202020;
+}
+
+header > a {
+	float: left;
+	text-decoration: none;
+	margin: 15px 15px;
+	color: #e4e4e4;
+}
+
+header > a:hover {
+	color: #27ae60;
+}
+
+header > ul {
+	float: right;
+	margin: 15px 15px;
+}
+
+#h-ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#h-ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #e4e4e4;
+	/*if you dont want this || padding you could put it insde this comment >>//*/
+	padding: 15px 21px 21px 21px;
+}
+
+#h-ul li a:hover {
+	color: #1abc9c;
+}
+
+
+.b-img {
+	width: 100%;
+	height: 500px;
+	background: url('set-up-img.jpg') fixed;	
+	overflow: auto;
+}
+
+.b-img > h1{
+	text-align: center;
+	margin-top: 15%;
+	color: #888;
+	background-color: #e4e4e4;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+
+.buttons {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.btn-1 {
+	width: 110px;
+	height: 55px;
+	background-color: cornflowerblue;
+    border: none;
+}
+
+.btn-2 {
+	width: 110px;
+	height: 55px;
+    background-color: deepskyblue;
+    border: none;
+}
+
+.btn-1:hover {
+	background-color: #e4e4e4;
+}
+
+.btn-2:hover {
+	background-color: #e4e4e4;
+}
+
+
+
+.btn-a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: none;
+    color: #202020;
+    padding: 20px;
+}
+
+
+
+
+.divison {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	background-color: #e4e4e4;
+}
+
+
+.divison article {
+	display: inline-block;
+	width: 290px;
+	height: 270px;
+	text-align: center;
+	margin: 50px 40px 40px 40px;
+	background-color: #b8e994;
+	border-radius: 10px;
+}
+
+
+
+.divison article:hover {
+	box-shadow: #888 0px 5px 40px;
+}
+
+
+
+.divison article h3 {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	background-color: #78e08f;
+	border-radius: 10px;
+}
+
+.divison article span {
+	font-size: 22px;
+	color: #2f3542;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons-div {
+            	width: 100%;
+            	height: 700px;
+            	background-color: #dff9fb;
+            	text-align: center;
+            }
+
+
+            .icons-div h1 {
+            	padding: 40px 0px 80px 0px;
+            	font-family: sans-serif;
+            }
+
+
+
+            .icons-div article {
+            	width: 200px;
+            	height: 400px;
+            	display: inline-block;
+            	text-align: center;
+            	margin: 40px 20px 0px 20px;
+            }
+
+
+
+            .icons-div article img {
+            	width: ;
+            }
+
+
+
+            .icons-div article h3 {
+            	font-size: 24px;
+            	margin-top: 20px;
+            	box-shadow: #888 0px 5px 30px;
+            	border-radius: 10px;
+            }
+
+
+            .icons-div article p {
+            	font-size: 16px;
+            	margin-top: 20px;
+            }
+
+            .icons-div article button {
+            	width: 130px;
+            	height: 40px;
+            	margin-top: 40px;
+            	margin-left: 30px;
+            	display: block;
+            	border-radius: 80px;
+            	background-color: cornflowerblue;
+            }
+
+
+
+
+
+
